@@ -1,0 +1,68 @@
+.chudo, .email, .poo, .register {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.chudo {
+    height: 20vh;
+    margin-bottom: 10px; /* Adds space below */
+}
+
+.email {
+    height: 15vh;
+    margin-bottom: 10px;
+}
+
+.poo {
+    height: 15vh;
+    margin-bottom: 10px;
+}
+
+.register {
+    height: 15vh;
+    margin-top: 10px; /* Pushes it down */
+}
+
+/* Input box styling */
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Register button */
+.register-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; /* Adds space above the button */
+}
+
+.register-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Login text */
+.login-text {
+    margin-top: 10px;
+}
+
+.login-text a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
